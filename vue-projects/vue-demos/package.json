@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
@@ -12,9 +12,9 @@
     "@do1/quickwork": "^1.5.2",
     "@do1/quickwork-mobile": "^1.6.2",
     "core-js": "^3.6.4",
-    "draggable": "^4.2.0",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
+    "vuedraggable": "^2.23.2",
     "vuex": "^3.1.2"
   },
   "devDependencies": {

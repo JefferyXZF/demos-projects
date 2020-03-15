@@ -2,13 +2,9 @@
   <div
     class="typeItem"
     :data-type="type"
-    :data-fieldType="item._type"
+    :data-fieldType="item.type"
     @click="selectFieldType(item)"
   >
-    <span
-      class="icon"
-      :class="item.icon"
-    />
     <span class="typeText">
       {{ item.title }}
     </span>
@@ -16,27 +12,21 @@
 </template>
 
 <script>
-import eventBus from '@/assets/js/utils/eventBus'
 export default {
   name: 'FieldTypeItem',
   props: {
     item: {
       type: Object,
-      default () {
-        return {}
-      }
+      default: () => {}
     },
     type: {
       type: String,
-      default () {
-        return {}
-      }
+      default: ''
     }
   },
   methods: {
     selectFieldType (item) {
       this.$emit('selectFieldType', item)
-      eventBus.$emit('changeActname', item)
     }
   }
 }
@@ -49,7 +39,7 @@ export default {
     height: 28px;
     line-height: 28px;
     vertical-align: middle;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
     background-color: #F7F7F7;
     border: 1px solid transparent;
