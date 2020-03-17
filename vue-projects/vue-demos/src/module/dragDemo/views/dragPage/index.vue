@@ -11,10 +11,16 @@
 
 <script>
 import fieldType from './../../components/fieldType'
+
 export default {
   name: 'DragPage',
   components: {
     fieldType
+  },
+  data () {
+    return {
+      value: ''
+    }
   }
 }
 </script>

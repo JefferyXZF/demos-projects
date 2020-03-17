@@ -1,6 +1,7 @@
 
 const initState = () => ({
-  dragType: ''
+  dragType: '',
+  richContent: 'sss'
 })
 
 const state = initState()
