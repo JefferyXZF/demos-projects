@@ -25,7 +25,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .field-type-container {
   display: flex;
   .field-content {

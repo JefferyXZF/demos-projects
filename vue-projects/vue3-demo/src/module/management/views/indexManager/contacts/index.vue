@@ -145,7 +145,7 @@ export default {
     font-family:PingFangSC-Medium,PingFang SC;
     font-weight:500;
 }
-.form_btn{
+.hareForm .form_btn{
   display: flex;
   justify-content: center;
   padding: 20px 0;
@@ -154,6 +154,7 @@ export default {
   width: 100%;
   background: #fff;
   margin: 0;
+  margin-left: -40px;
   .form_btn_save {
     width: 150px;
     height: 45px;

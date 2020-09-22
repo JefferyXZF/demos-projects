@@ -1,17 +1,18 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <CropperContainer />
+    <h2>Essential Lindddks</h2>
+    <!-- <CropperContainer /> -->
   </div>
 </template>
 
 <script>
-import CropperContainer from './cropperImage'
+// import CropperContainer from './cropperImage'
+// import searchBar from '@/mobile/components/search'
 export default {
   name: 'HelloWorld',
   components: {
-    CropperContainer
+    // CropperContainer
   },
   data () {
     return {

@@ -74,7 +74,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .type-field {
   display: flex;
   color: #777;

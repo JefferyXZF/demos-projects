@@ -32,7 +32,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
   .typeItem {
     display: inline-block;
     width: 108px;

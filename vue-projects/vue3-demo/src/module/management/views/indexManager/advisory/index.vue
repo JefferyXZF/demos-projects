@@ -78,7 +78,7 @@ export default {
 
 <style lang="scss" scoped>
 .advisory-main {
-  height: calc(100vh - 110px);
+  height: 100%;
   position: relative;
 }
 .form-advisory {
@@ -106,14 +106,17 @@ export default {
     font-family:PingFangSC-Medium,PingFang SC;
     font-weight:500;
 }
-.form_btn{
+.hareForm .form_btn{
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 20px 0;
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: -65px;
+    // left: 50%;
+    // transform: translateX(-50%);
+    width: 100%;
+    margin: 0;
+    margin-left: -20px;
     .form_btn_save {
       width: 150px;
       height: 45px;
