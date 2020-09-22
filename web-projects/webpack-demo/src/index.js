@@ -1,17 +1,11 @@
-import './index.scss'
 
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-  getName() {
-    return this.name;
-  }
-}
+import css from './assets/style/index.css'
+import './assets/style/less/index.less'
+console.dir(css)
+// class HelloWorld {
+//   constructor() {
+    console.log('hello the world')
+//   }
+// }
 
-let person = new Person("张ddd三");
-console.log(person.getName());
-console.log('aasd')
-let inner = document.createElement('div')
-inner.innerHTML = 'ddd'
-document.body.appendChild(inner)
+// new HelloWorld()
