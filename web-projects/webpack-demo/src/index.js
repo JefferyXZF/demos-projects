@@ -1,6 +1,6 @@
 
-import css from './assets/style/index.css'
-import './assets/style/less/index.less'
+// import css from './assets/style/index.css'
+// import './assets/style/less/index.less'
 console.dir(css)
 // class HelloWorld {
 //   constructor() {
