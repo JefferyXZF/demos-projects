@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/module/shop/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/module/shop/index.js":
-/*!**********************************!*\
-  !*** ./src/module/shop/index.js ***!
-  \**********************************/
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('shop');\n\n//# sourceURL=webpack:///./src/module/shop/index.js?");
+eval("let a;\n\nif (true) {\n  console.log(22);\n}\n\nclass HelloWorld {\n  constructor() {\n    console.log('hello the world');\n  }\n\n}\n\nconsole.log(22);\nnew HelloWorld();\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

@@ -6,7 +6,6 @@ const textWebpackPlugin = require("./src/plugin/fileWebpackPlugin")
 
 const glob = require("glob")
 
-// 暗号：等价交换，炼金术不变的原则
 // 多页面打包通用方案
 const setMPA = () => {
   const entry = {}

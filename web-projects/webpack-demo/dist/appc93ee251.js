@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/module/form/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/module/form/index.js":
-/*!**********************************!*\
-  !*** ./src/module/form/index.js ***!
-  \**********************************/
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('form');\n\n//# sourceURL=webpack:///./src/module/form/index.js?");
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: Unknown option: .corejs. Check out https://babeljs.io/docs/en/babel-core/#options for more information about options.\\n    at throwUnknownError (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/@babel/core/lib/config/validation/options.js:124:27)\\n    at /Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/@babel/core/lib/config/validation/options.js:109:5\\n    at Array.forEach (<anonymous>)\\n    at validateNested (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/@babel/core/lib/config/validation/options.js:85:21)\\n    at validate (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/@babel/core/lib/config/validation/options.js:76:10)\\n    at loadPrivatePartialConfig (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/@babel/core/lib/config/partial.js:76:50)\\n    at loadPrivatePartialConfig.next (<anonymous>)\\n    at Function.<anonymous> (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/@babel/core/lib/config/partial.js:125:25)\\n    at Generator.next (<anonymous>)\\n    at evaluateSync (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/gensync/index.js:244:28)\\n    at Function.sync (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/gensync/index.js:84:14)\\n    at Object.<anonymous> (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/@babel/core/lib/config/index.js:43:61)\\n    at Object.<anonymous> (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/babel-loader/lib/index.js:151:26)\\n    at Generator.next (<anonymous>)\\n    at asyncGeneratorStep (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/babel-loader/lib/index.js:3:103)\\n    at _next (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/babel-loader/lib/index.js:5:194)\\n    at /Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/babel-loader/lib/index.js:5:364\\n    at new Promise (<anonymous>)\\n    at Object.<anonymous> (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/babel-loader/lib/index.js:5:97)\\n    at Object._loader (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/babel-loader/lib/index.js:231:18)\\n    at Object.loader (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/babel-loader/lib/index.js:64:18)\\n    at Object.<anonymous> (/Users/xiejeffery/Desktop/github/my-github/demos-projects/web-projects/webpack-demo/node_modules/babel-loader/lib/index.js:59:12)\");\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
