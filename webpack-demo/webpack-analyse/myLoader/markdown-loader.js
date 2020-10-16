@@ -3,7 +3,7 @@ const loadUtils = require('loader-utils')
 
 
 module.exports = function(content, sourcemap) {
-  const options = loadUtils(this)
+  const options = loadUtils.getOptions(this)
 
   this.cacheable()
 

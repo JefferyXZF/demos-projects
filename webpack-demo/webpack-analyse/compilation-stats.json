@@ -1,0 +1,833 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "cc4d0dba3592962086ab",
+  "time": 939,
+  "builtAt": 1602833809195,
+  "publicPath": "",
+  "outputPath": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\dist",
+  "assetsByChunkName": {
+    "main": [
+      "main.css",
+      "main.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "filelist.md",
+      "size": 35,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "main.css",
+      "size": 106,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "main.js",
+      "size": 5463,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.css",
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.css",
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 642,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.css",
+        "main.js"
+      ],
+      "hash": "7e6b15dc99098f222089",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "",
+          "identifier": "css D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css 0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+          "index": 3,
+          "index2": 1,
+          "size": 105,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+          "issuerId": "./src/main.css",
+          "issuerName": "./src/main.css",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 33,
+                "building": 294
+              }
+            },
+            {
+              "id": "./src/main.css",
+              "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+              "name": "./src/main.css",
+              "profile": {
+                "factory": 33,
+                "building": 544
+              }
+            }
+          ],
+          "profile": {
+            "factory": 0,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/main.css",
+              "moduleIdentifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+              "module": "./src/main.css",
+              "moduleName": "./src/main.css"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 3,
+          "size": 69,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 33,
+            "building": 294
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "main"
+            }
+          ],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "import html from './test.md';\nimport './main.css';\nconsole.log(html);"
+        },
+        {
+          "id": "./src/main.css",
+          "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+          "name": "./src/main.css",
+          "index": 2,
+          "index2": 2,
+          "size": 50,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+          "issuerId": "./src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 33,
+                "building": 294
+              }
+            }
+          ],
+          "profile": {
+            "factory": 33,
+            "building": 544
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./main.css",
+              "loc": "2:0-20"
+            }
+          ],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "// extracted by mini-css-extract-plugin\nexport {};"
+        },
+        {
+          "id": "./src/test.md",
+          "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\raw-loader\\dist\\cjs.js??ref--5-0!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\myLoader\\markdown-loader.js??ref--5-1!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\test.md",
+          "name": "./src/test.md",
+          "index": 1,
+          "index2": 0,
+          "size": 418,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+          "issuerId": "./src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 33,
+                "building": 294
+              }
+            }
+          ],
+          "profile": {
+            "factory": 33,
+            "building": 544
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./test.md",
+              "loc": "1:0-29"
+            },
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "./test.md",
+              "loc": "3:12-16"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "module.exports = \"<h1 id=\\\"qwy\\\">qwy</h1>\\n<blockquote>\\n  <p>A Vue.js project</p>\\n</blockquote>\\n<h2 id=\\\"\\\">使用方式</h2>\\n<pre><code class=\\\"bash language-bash\\\"># install dependencies\\nyarn\\n\\n# serve with hot reload at localhost:8089\\nnpm run dev\\n\\n# build for production with minification\\nnpm run build\\n\\n# build for production and view the bundle analyzer report\\nnpm run build --report\\n</code></pre>\";"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "",
+      "identifier": "css D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css 0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+      "index": 3,
+      "index2": 1,
+      "size": 105,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+      "issuerId": "./src/main.css",
+      "issuerName": "./src/main.css",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 33,
+            "building": 294
+          }
+        },
+        {
+          "id": "./src/main.css",
+          "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+          "name": "./src/main.css",
+          "profile": {
+            "factory": 33,
+            "building": 544
+          }
+        }
+      ],
+      "profile": {
+        "factory": 0,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/main.css",
+          "moduleIdentifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+          "module": "./src/main.css",
+          "moduleName": "./src/main.css"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "./src/index.js",
+      "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 3,
+      "size": 69,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 33,
+        "building": 294
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.js",
+          "loc": "main"
+        }
+      ],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "import html from './test.md';\nimport './main.css';\nconsole.log(html);"
+    },
+    {
+      "id": "./src/main.css",
+      "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+      "name": "./src/main.css",
+      "index": 2,
+      "index2": 2,
+      "size": 50,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+      "issuerId": "./src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 33,
+            "building": 294
+          }
+        }
+      ],
+      "profile": {
+        "factory": 33,
+        "building": 544
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./main.css",
+          "loc": "2:0-20"
+        }
+      ],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "// extracted by mini-css-extract-plugin\nexport {};"
+    },
+    {
+      "id": "./src/test.md",
+      "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\raw-loader\\dist\\cjs.js??ref--5-0!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\myLoader\\markdown-loader.js??ref--5-1!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\test.md",
+      "name": "./src/test.md",
+      "index": 1,
+      "index2": 0,
+      "size": 418,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+      "issuerId": "./src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 33,
+            "building": 294
+          }
+        }
+      ],
+      "profile": {
+        "factory": 33,
+        "building": 544
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./test.md",
+          "loc": "1:0-29"
+        },
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony import specifier",
+          "userRequest": "./test.md",
+          "loc": "3:12-16"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "module.exports = \"<h1 id=\\\"qwy\\\">qwy</h1>\\n<blockquote>\\n  <p>A Vue.js project</p>\\n</blockquote>\\n<h2 id=\\\"\\\">使用方式</h2>\\n<pre><code class=\\\"bash language-bash\\\"># install dependencies\\nyarn\\n\\n# serve with hot reload at localhost:8089\\nnpm run dev\\n\\n# build for production with minification\\nnpm run build\\n\\n# build for production and view the bundle analyzer report\\nnpm run build --report\\n</code></pre>\";"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": "mini-css-extract-plugin",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 2020,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "f13ed52db699f20b8758",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+              "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+              "index": 0,
+              "index2": 1,
+              "size": 415,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "mini-css-extract-plugin"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 3,
+                "building": 477
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"\\r\\nbody {\\r\\n  display: -webkit-box;\\r\\n  display: -webkit-flex;\\r\\n  display: -ms-flexbox;\\r\\n  display: flex;\\r\\n}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
+            },
+            {
+              "id": "./node_modules/css-loader/dist/runtime/api.js",
+              "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 1605,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "mini-css-extract-plugin"
+              ],
+              "issuer": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+              "issuerPath": [
+                {
+                  "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+                  "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+                  "profile": {
+                    "factory": 3,
+                    "building": 477
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 2,
+                "building": 27
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+                  "moduleIdentifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-89"
+                },
+                {
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+                  "moduleIdentifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony import specifier",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "\"use strict\";\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\n\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+          "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+          "index": 0,
+          "index2": 1,
+          "size": 415,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 3,
+            "building": 477
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+              "loc": "mini-css-extract-plugin"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"\\r\\nbody {\\r\\n  display: -webkit-box;\\r\\n  display: -webkit-flex;\\r\\n  display: -ms-flexbox;\\r\\n  display: flex;\\r\\n}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
+        },
+        {
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\babel-loader\\lib\\index.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 1605,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "issuer": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+          "issuerPath": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+              "identifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+              "profile": {
+                "factory": 3,
+                "building": 477
+              }
+            }
+          ],
+          "profile": {
+            "factory": 2,
+            "building": 27
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+              "moduleIdentifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "2:0-89"
+            },
+            {
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+              "moduleIdentifier": "D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\css-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\node_modules\\postcss-loader\\dist\\cjs.js!D:\\document\\my-github\\demos-projects\\webpack-demo\\webpack-analyse\\src\\main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony import specifier",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "3:30-57"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "\"use strict\";\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\n\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!node_modules/postcss-loader/dist/cjs.js!src/main.css"
+    }
+  ]
+}

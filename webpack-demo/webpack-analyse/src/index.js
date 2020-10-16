@@ -1,12 +1,7 @@
-console.log('hello the world')
-const EventEemitter  = require('events').EventEmitter
+import html from './test.md'
+import './main.css'
 
-const event = new EventEemitter()
-
-event.on('event_name', args => {
-  console.log('event_name', args)
+import('./lazy').then(res => {
+  console.log(res, '加载成功')
 })
-
-setTimeout(() => {
-  event.emit('event_name', 'hello the world')
-})
+console.log(html)

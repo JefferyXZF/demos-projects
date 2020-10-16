@@ -1,15 +1,60 @@
-const webpack = require('webpack')
+const path = require('path')
+const MiniCssWebpackPlugin = require('mini-css-extract-plugin')
+const FileListPlugin = require('./myPlugin/file-list-plugin')
+const PerfetchWebpackPlugin = require('./myPlugin/prefetch-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
-const webpackDevConfig = require('./build/webpack.config.dev')
+module.exports = {
+  mode: 'development',
+  entry: {
+    main: './src/index.js'
+  },
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [MiniCssWebpackPlugin.loader, 'css-loader', 'postcss-loader']
+      },
+      {
+        test: /\.md$/,
+        use: [
+          {
+            loader: 'raw-loader',
+            options: {
+              esModule: false,
+            }
+          },
+          {
+          loader: 'markdown-loader',
+          options: {
+            simplifiedAutoLink: true,
+            tables: true
+          }
+        }]
+      },
+      {
+        test: /\.js$/,
+        loader: 'babel-loader'
+      }
+    ]
+  },
+  resolveLoader: {
+    modules: ['node_modules', 'myLoader']
+  },
+  plugins: [
+    new MiniCssWebpackPlugin({
+      filename: '[name].css'
+    }),
+    new FileListPlugin(),
+    new HtmlWebpackPlugin({
+      template: './index.html',
+      filename: 'app.html'
+    }),
+    new PerfetchWebpackPlugin()
 
-const compiler = webpack(webpackDevConfig)
-
-Object.keys(compiler.hooks).forEach(hookName => {
-  if(compiler.hooks[hookName].tap) {
-    compiler.hooks[hookName].tap('anyString', () => {
-      console.log(`run -> ${hookName}`)
-    })
-  }
-})
-
-compiler.run()
+  ]
+}
